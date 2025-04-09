@@ -1,9 +1,6 @@
 ---
 
-# **Amazon USA Sales Analysis Project**
-
-### **Difficulty Level: Intermediate to Advanced**
-
+# **Amazon USA Sales Analysis Project - SQL **
 ---
 
 ## **Project Overview**
@@ -15,6 +12,12 @@ An ERD diagram was created to provide a clear visual representation of the datab
 
 
 ---
+## **Objective**
+
+The primary objective of this project is to showcase SQL proficiency through complex queries that address real-world e-commerce business challenges. The analysis covers various aspects of e-commerce operations
+--
+## ** SQL Concepts Used **
+Joins , case statements , window functions - Rank , Dense Rank , Lag , Group By , Having , Subqueries.
 
 ## **Database Setup & Design**
 
@@ -131,6 +134,3 @@ Null values were handled based on their context:
 
 ---
 
-## **Objective**
-
-The primary objective of this project is to showcase SQL proficiency through complex queries that address real-world e-commerce business challenges. The analysis covers various aspects of e-commerce operations
