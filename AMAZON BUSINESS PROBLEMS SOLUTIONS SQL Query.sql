@@ -218,8 +218,30 @@ GROUP BY 1, 2
 ORDER BY 5 DESC ;
 
 ----------------------------------------------------------------------------------------------------------------------
+/*
+11. Shipping Delays
+Identify orders where the shipping date is later than 3 days after the order date.
+Challenge: Include customer, order details, and delivery provider.
+*/
+select *, s.shipping_date - o.order_date as Shipped_After
+from orders as o 
+join customers c on c.customer_id = o.customer_id 
+join shippings as S on o.order_id = s.order_id where (s.shipping_date - o.order_date) > 3 ;
+----------------------------------------------------------------------------------------------------------------------
+/*
+12. Top Performing Sellers
+Find the top 5 sellers based on total sales value.
+*/
+select se.seller_id ,se.seller_name, sum(oi.total_sales) as  Total_sales 
+from order_items oi 
 
+join orders o on oi.order_id = o.order_id 
+join products p on oi.product_id = p.product_id 
+join sellers se on o.seller_id = se.seller_id
 
+group by 1, 2 order by 3 desc limit 5  ;
+
+--------------------------------------------------------------------------------------------------------------------------
 
 
 
