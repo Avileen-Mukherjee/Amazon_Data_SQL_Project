@@ -367,6 +367,8 @@ join shippings as S on o.order_id = s.order_id where (s.shipping_date - o.order_
 12. Top Performing Sellers
 Find the top 5 sellers based on total sales value.
 */
+
+
 select se.seller_id ,se.seller_name, sum(oi.total_sales) as  Total_sales 
 from order_items oi 
 
