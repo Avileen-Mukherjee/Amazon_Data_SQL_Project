@@ -18,6 +18,16 @@ The primary objective of this project is to showcase SQL proficiency through com
 --
 ## ** SQL Concepts Used **
 Joins , case statements , window functions - Rank , Dense Rank , Lag , Group By , Having , Subqueries.
+## ** Key Insights **
+High-Value Customers: The top 10 customers contribute significantly to the overall revenue, indicating the importance of customer retention strategies.
+
+Payment Efficiency: The payment success rate provides insights into the reliability of the payment processing system.
+
+Product Performance: Identifying top-selling products helps in inventory management and marketing focus.
+
+Return Rates: Products with high return rates may require quality assessment or better customer education.
+
+Seller Contributions: Understanding which sellers generate the most revenue can inform partnership and commission strategies.
 
 ## **Database Setup & Design**
 
